@@ -1,0 +1,36 @@
+.main-content {
+    padding: 20px;
+  }
+
+.chart-container {
+  margin-top: 20px;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.chart-controls {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+
+
+/* Media query for iPad screens (between 577px and 768px) */
+@media (min-width: 577px) and (max-width: 768px) {
+
+  .main-content {
+    padding: 10px;
+  }
+  
+}
+
+
+@media (max-width: 576px) {
+    
+    .main-content {
+      padding: 10px;
+    }
+    
+  }
+  
